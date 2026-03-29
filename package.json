@@ -1,25 +1,20 @@
 {
-  "name": "wedmix-api",
+  "name": "wedmix",
   "version": "1.0.0",
-  "description": "API for WedMix - Wedding Playlist Creation Service",
-  "main": "dist/index.js",
+  "description": "AI wedding-music setlist generator (Spotify + GPT).",
+  "main": "index.js",
   "scripts": {
-    "start": "node dist/index.js",
-    "dev": "ts-node-dev src/index.ts",
-    "build": "tsc",
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "spotify-web-api-node": "^5.0.2"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SDGuitarist/wedmix.git"
   },
-  "devDependencies": {
-    "@types/cors": "^2.8.13",
-    "@types/express": "^4.17.17",
-    "@types/node": "^18.15.11",
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^5.0.4"
-  }
-} 
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SDGuitarist/wedmix/issues"
+  },
+  "homepage": "https://github.com/SDGuitarist/wedmix#readme"
+}
